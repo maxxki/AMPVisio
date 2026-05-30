@@ -31,3 +31,9 @@ AMPVisio is a high-precision, automated optical inspection system designed for t
 ## **Compliance**
 
 AMPVisio addresses critical industry requirements for automated visual inspection, including data integrity protocols aligned with FDA 21 CFR Part 11 and EU GMP standards.
+
+## Usage
+
+
+python paket_scanner_gmp.py --demo --model models/best.pt \
+  --user-id op01 --user-name "Your Name" --batch-id 20260530-0001
